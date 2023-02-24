@@ -1,4 +1,4 @@
-package textecurso.executavel;
+package cursojava.executavel;
 
 public class PrimeiraClasseJava {
 	

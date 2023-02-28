@@ -1,5 +1,7 @@
 package cursojava.executavel;
 
+import java.sql.Date;
+
 public class PrimeiraClasseJava {
 	
 	private String nome;
@@ -7,6 +9,16 @@ public class PrimeiraClasseJava {
 	private String sobrenome;
 	
 	private int idade;
+	
+	private Date dataNascimento;
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 
 	public int getIdade() {
 		return idade;

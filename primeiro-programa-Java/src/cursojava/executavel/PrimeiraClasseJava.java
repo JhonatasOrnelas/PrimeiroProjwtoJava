@@ -13,6 +13,8 @@ public class PrimeiraClasseJava {
 	private Date dataNascimento;
 	
 	private Date dataCadastro;
+	
+	private int cpf;
 
 	public Date getDataNascimento() {
 		return dataNascimento;

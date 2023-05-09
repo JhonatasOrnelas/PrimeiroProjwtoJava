@@ -17,8 +17,6 @@ public class Primeiro_Programa_Java {
 		
 	 	System.out.println("meu nome é = " + nome + " " + "e meu cpf é = " + cpf + " meu contato é = " + telefone + " e moro em = " + endereço);
 		
-		
-		
 		}
 		
 	

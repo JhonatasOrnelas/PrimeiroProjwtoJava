@@ -1,53 +1,22 @@
 package cursojava.executavel;
 
-import java.sql.Date;
-
-public class PrimeiraClasseJava {
-	
-	private String nome;
-	
-	private String sobrenome;
-	
-	private int idade;
-	
-	private Date dataNascimento;
-	
-	private Date dataCadastro;
-	
-	private int cpf;
-
-	public Date getDataNascimento() {
-		return dataNascimento;
-	}
-
-	public void setDataNascimento(Date dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
-
-	public int getIdade() {
-		return idade;
-	}
-
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getSobrenome() {
-		return sobrenome;
-	}
-
-	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
-	}
+public class Primeiro_Programa_Java {
 	
 	
-
+		/*Main � um metodo alto executavel em Java*/
+		public static void main(String[] args) {
+		
+		/*Concatenação = Unir ou Juntar dados*/	
+		String nome = "jhonatas";
+		String cpf = "123-234-345-45";
+		String telefone = "12 1234-5656";
+		String endereço = "guarulhos";
+		
+	 	System.out.println("meu nome é = " + nome + " " + "e meu cpf é = " + cpf + " meu contato é = " + telefone + " e moro em = " + endereço);
+		
+	 	
+		}
+	 	
+	 	
+	
 }

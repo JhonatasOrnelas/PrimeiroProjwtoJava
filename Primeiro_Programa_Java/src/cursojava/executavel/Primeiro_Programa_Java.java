@@ -4,18 +4,21 @@ public class teste {
 	/* Main � um metodo alto executavel em Java */
 	public static void main(String[] args) {
 
-		int mediaAluno = 50;
-		String nome = "jhonatas";
-
-		if (mediaAluno >= 50 && nome.equals("jhonatas")) {
-			System.out.println("aluno aprovado");
-		} else if (mediaAluno < 50 && nome.equals("jhonatas")) {
-			System.out.println("aluno reprovado");
-		}else {
-			System.out.println("aluno desconhecido");
-				
-		}
-
+	int nota1 = 90; 
+	int nota2 = 80; 
+	int nota3 = 70; 
+	int nota4 = 60; 
+	int media = 0;
+	
+	media = (nota1 + nota2 + nota3 + nota4) /4;
+	
+	if (media >= 70) {
+		System.out.println("Aluno aprovado : " + media);	
+	}else {
+		System.out.println("Aluno reprovado: " + media);
+		
+	}
+	
 	}
 
 }

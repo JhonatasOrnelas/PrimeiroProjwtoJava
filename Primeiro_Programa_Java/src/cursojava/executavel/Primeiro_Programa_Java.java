@@ -1,4 +1,3 @@
-
 public class teste {
 
 	/* Main � um metodo alto executavel em Java */
@@ -14,12 +13,15 @@ public class teste {
 	
 	if (media >= 70) {
 		System.out.println("Aluno aprovado : " + media);	
-	}else {
-		System.out.println("Aluno reprovado: " + media);
+	}
+	if (media >= 40 && media <= 69) {
+		System.out.println("Aluno em recuperação : " + media);
+	}
+	else {
+		System.out.println("Aluno reprovado : " + media);
 		
 	}
 	
 	}
 
 }
-

@@ -3,24 +3,21 @@ public class teste {
 	/* Main � um metodo alto executavel em Java */
 	public static void main(String[] args) {
 
-		/* Estrutura de repetição while */
+		/* Estrutura de repetição FOR */
 
-		int numero1 = 0;
-
-		while (numero1 <= 100) { /*while verifica e depois executa*/
-
-			System.out.println("numerp atual é : " + numero1);
-			numero1 ++;	
-		}
-	/*--------------------------------------------------------*/	
-	 int numero2 = 0;
-	 do	{/*Primeiro executa e depois verifica*/
-		 
-		 System.out.println("numerp atual é : " + numero2);
-		 numero2 ++;	 
-	 }while(numero2 <= 60); 
-		 	 
-		
+	for(int numero = 100; numero <= 0; numero ++) {
+		System.out.println("numero atual é : " + numero);
+	
+	/*------------------------------------------------*/{
 	}
+	
+	for(int numero1 = 100; numero1 >= 0; numero1 --) {
+		System.out.println("numero atual é : " + numero1);	
+		
+	}	
+		
+    }
 
-}
+	}
+	
+	}

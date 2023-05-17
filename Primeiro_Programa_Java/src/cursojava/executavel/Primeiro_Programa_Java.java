@@ -3,20 +3,15 @@ public class teste {
 	/* Main � um metodo alto executavel em Java */
 	public static void main(String[] args) {
 
-		/* Estrutura de repetição FOR */
+		/* Estrutura de repetição FOR e Continue*/
 
 		for (int numero = 0; numero <= 10; numero++) {
-			if (numero == 5) {
-				System.out.println("numero 5 encontrado");
-				System.out.println("parando exucução");
+			if (numero == 2 || numero == 4 || numero == 6) {
+				System.out.println("numero encontrado");
 				break;
 			}
-			/*------------------------------------------*/
-			/*
-			 * for (int numero1 = 10; numero1 >= 0; numero--) { if (numero1 == 8) {
-			 * System.out.println("numero1 5 encontrado");
-			 * System.out.println("parando exucução"); break; }
-			 */
+			
+			System.out.println("Processando laço de repetição");
 
 		}
 

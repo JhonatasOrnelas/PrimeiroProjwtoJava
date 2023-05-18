@@ -18,7 +18,8 @@ public class PrimeiroProjetoJava {
 	
 	double resto = carroNumero % pessoaNumero;
 	
-	System.out.println("divisao para as pessoas deu " + divisao + "carros e sobrou " + resto + "carro");	
+	JOptionPane.showMessageDialog(null, "divisao para as pessoas deu " + divisao + "carros e sobrou " + resto + "carro");	
+	
 	}
 
 }

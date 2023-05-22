@@ -18,7 +18,22 @@ public class PrimeiroProjetoJava {
 	
 	double resto = carroNumero % pessoaNumero;
 	
-	JOptionPane.showMessageDialog(null, "divisao para as pessoas deu " + divisao + "carros e sobrou " + resto + "carro");	
+	int resposta = JOptionPane.showConfirmDialog(null, "deseja ver o resultado da divisao?")
+			
+	if (resposta == 0) {
+		JOptionPane.showMessageDialog(null, "divisao para as pessoas deu " + divisao )
+		
+	}else {
+		System.out.println("nao quiz ver o resultado");
+	} 	
+
+	resposta = JOptionPane.showMessageDialog(null, "deseja ver o resultado da divisao?")
+			
+	if (resposta == 0) {
+		JOptionPane.showMessageDialog(null, "o resto da divisao é " + resto )
+		
+	}
+	
 	
 	}
 

@@ -1,16 +1,24 @@
-package cursoJava.classes;
+import PrimeiroProjeto.Java
 
-/*Este é a nova classe/objeto que representa o aluno*/
-public class Aluno {
+public class PrimeiroProjetoJava {
 
-	String nome;
-	int idade;
-	String dataNascimento;
-	String registroGeral;
-	String numeroCpf;
-	String nomeMae;
-	String nomePai;
-	String dataMatricula;
-	String nomeEscola;
-	String serieMatricola;
+	/* Main � um metodo alto executavel em Java */
+	public static void main(String[] args) {
+
+
+		Aluno Aluno1 = new Aluno();/*Aqui sera o João*/
+		
+		
+		Aluno Aluno2 = new Aluno();/*Aqui sera o Pedro*/
+		
+		
+		Aluno Aluno3 = new Aluno();/*Aqui sera o Alex*/
+		
+		
+		Aluno Aluno4 = new Aluno("Maria");
+		
+		
+		Aluno Aluno5 = new Aluno("José", 50);
+	}
+
 }
